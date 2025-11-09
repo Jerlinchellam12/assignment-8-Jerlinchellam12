@@ -7,7 +7,7 @@ Roll No: DA25C009
 Documentation
 
 
-# Ensemble Learning for Complex Regression — Bike Share Demand Prediction  
+# Ensemble Learning for Complex Regression Modeling on Bike Share Data  
 
 ## Introduction  
 This project focuses on predicting the total count of rented bikes in a city’s bike-sharing system using **ensemble learning techniques**. Accurate forecasting helps the city manage inventory and resources effectively. Since bike demand depends on many factors like weather, season, and time, this becomes a **complex regression problem** with non-linear relationships.  
@@ -39,7 +39,7 @@ Each method was implemented and compared based on its performance in predicting 
 
 Ensure all dependencies are installed before running the notebook.  
 
-## 📊 Dataset and Methodology  
+## Dataset and Methodology  
 - **Dataset:** [Bike Sharing Dataset (Hourly)](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)  
 - **Source:** UCI Machine Learning Repository  
 - **Size:** 17,379 hourly records  
@@ -62,7 +62,7 @@ Ensure all dependencies are installed before running the notebook.
 4. **Evaluation Metric:**  
    - Root Mean Squared Error (RMSE) was used to compare model performance.  
 
-## 🔍 Observations  
+## Observations  
 - Linear Regression handled linear relationships well but missed complex patterns.
    
 - Bagging stabilized predictions and reduced overfitting from Decision Trees.
@@ -71,14 +71,14 @@ Ensure all dependencies are installed before running the notebook.
     
 - Stacking combined diverse model strengths and achieved the **best overall performance** with the lowest RMSE (62.48).  
 
-## ✅ Conclusion  
+## Conclusion  
 The **Stacking Regressor** emerged as the best-performing model, effectively combining the predictive strengths of KNN, Bagging, and Gradient Boosting through a Ridge Regression meta-learner. 
 
 This project showed how ensemble methods can significantly improve predictive performance by balancing **bias** and **variance**.  
 
 It reinforced the idea that model diversity and smart combination strategies can outperform even the best single model.  
 
-## 📚 Reference  
+## Reference  
 - *Bike Sharing Dataset*. UCI Machine Learning Repository.
   
 - Scikit-learn Documentation: [https://scikit-learn.org/](https://scikit-learn.org/)  

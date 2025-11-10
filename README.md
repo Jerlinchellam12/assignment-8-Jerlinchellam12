@@ -13,7 +13,7 @@ Documentation
 This project focuses on predicting the total count of rented bikes in a city’s bike-sharing system using **ensemble learning techniques**. Accurate forecasting helps the city manage inventory and resources effectively. Since bike demand depends on many factors like weather, season, and time, this becomes a **complex regression problem** with non-linear relationships.  
 
 ## Overview  
-I explored three primary ensemble techniques - **Bagging**, **Boosting**, and **Stacking** — to handle the challenges of high variance and bias in predictive modeling.  
+I explored three primary ensemble techniques - **Bagging**, **Boosting**, and **Stacking** to handle the challenges of high variance and bias in predictive modeling.  
 
 Each method was implemented and compared based on its performance in predicting bike demand, measured using the **Root Mean Squared Error (RMSE)** metric.  
 
